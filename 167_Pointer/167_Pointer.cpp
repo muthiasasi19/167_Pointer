@@ -21,6 +21,10 @@ int main()
 	ref.nim = 2;						//  Member Access Operator
 	mhs.showNim();
 
-
+	mahasiswa* pMhs = &mhs;				// Pointer Defernces pMhs
+	pMhs->nim = 3;						// Arrow operator
+	mhs.showNim();
+	system("pause");
+	return 0;
 
 }
