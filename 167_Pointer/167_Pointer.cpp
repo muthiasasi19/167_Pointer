@@ -11,3 +11,12 @@ public:
 void mahasiswa::showNim() {
 	cout << "No induk = " << nim << endl;		//implementasi method diluar class 
 }
+
+int main()
+{
+	mahasiswa mhs{ 1 };					// object mhs
+	mhs.showNim();						// Member Access Operator
+
+	
+
+}
